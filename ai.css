@@ -1,0 +1,85 @@
+body {
+  background-color: #333;
+  font-family: "Varela Round";
+  color: #ffffff;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+h1 {
+  margin: 7px;
+}
+
+div {
+  border-radius: 8px;
+}
+
+title {
+}
+
+.varela-round-regular {
+  font-family: "Varela Round", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+select {
+  background-color: #335;
+  border: 1px solid;
+  border-radius: 5px;
+  border-color: #a55b1c00;
+  color: white;
+  width:min(150px);
+  height: 35px;
+}
+
+textarea {
+  background-color: #335;
+  border: 1px solid;
+  border-radius: 5px;
+  border-color: #a55b1c00;
+  color: white;
+  padding: 15px;
+  height: 300px;
+  width: 100%;
+  margin: 7px;
+}
+
+button {
+  background-color: pink;
+  background-image: linear-gradient(210deg, rgb(220, 1, 120), rgb(30, 179, 200));
+  font-family: "Varela Round";
+  border: 1px solid;
+  border-style: none;
+  border-radius: 5px;
+  border-color: #31313100;
+  margin: 20px;
+  padding: 10px;
+  box-shadow: 0px 0px 10px 3px #555;
+}
+
+div.cust {
+  background-color: #29292960;
+  border: 1px solid;
+  border-style: scope;
+  border-color: #333333;
+  padding-bottom: 8px;
+  border-radius: 5px;
+  padding: 5px;
+  align-content: centre;
+}
+
+table {
+  border: 5px solid;
+  border-color: #31313100;
+  padding: 5px;
+}
+
+.bros {
+  background-color: rgb(19, 21, 22);
+  width: auto;
+  height: 100%;
+  padding: 10px;
+  border-radius: 40px;
+  margin: 20px;
+  box-shadow: 1px 2px 10px 5px rgb(19, 21, 22);
+}
