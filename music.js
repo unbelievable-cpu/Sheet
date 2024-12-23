@@ -10,10 +10,10 @@ toggleLink.addEventListener('click', (event) => {
   
   if (isPlaying) {
     music.pause(); // Зупиняємо музику
-    toggleLink.textContent = '🎵 Включити музику';
+    toggleLink.textContent = '🎵 Play music';
   } else {
     music.play(); // Відтворюємо музику
-    toggleLink.textContent = '⏸ Зупинити музику';
+    toggleLink.textContent = '⏸ Stop music';
   }
 
   isPlaying = !isPlaying; // Перемикаємо статус
