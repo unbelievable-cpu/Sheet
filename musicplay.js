@@ -18,22 +18,3 @@ toggleLink.addEventListener('click', (event) => {
 
   isPlaying = !isPlaying; // Перемикаємо статус
 });
-
-$('.style6').each(function(){
-    var letters = $(this).text().split('');
-    $(this).text('');
-    for(var i = 0; i < letters.length; i++){
-        if(i % 2 == 0){
-            $(this).append('<span class="color_red">' + letters[i] + '</span>');
-        }
-        else{
-            $(this).append('<span class="color_green">' + letters[i] + '</span>');
-        }
-    }
-});
-
-setInterval(function() { 
-    var reds = $(".style6 .color_red"); 
-    $(".style6 .color_green").attr("class","color_red"); 
-    reds.attr("class","color_green"); 
-}, 700);
