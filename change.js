@@ -33,3 +33,8 @@ window.onload = () => {
     category.dispatchEvent(new Event("change"));
   }
 };
+
+function myFunction() {
+  var popup = document.getElementById("comm");
+  popup.classList.toggle("show");
+}
