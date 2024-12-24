@@ -174,3 +174,88 @@
     flex-wrap: wrap;
     flex-grow: 1;
   }
+
+  .text {
+    margin: auto;
+    padding: 5px;
+  }
+
+  label {
+    background-color: rgb(37, 37, 37);
+    color: white;
+    padding: 0.5rem;
+    border: 1px solid;
+    border-color: #31313100;
+    background-image: linear-gradient(210deg, rgb(220, 1, 120), rgb(30, 179, 200));
+    box-shadow: 0px 0px 10px 3px #555;
+    border-style: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 200px;
+  }
+
+  label.pop {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width:min(50px);
+  }
+
+  .popup {
+  position: relative;
+  display: flex;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  align-content: center;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  height: 400px;
+  width: 400px;
+  background-color: #1f1f1f;
+  color: #fff;
+  text-align: center;
+  align-content: center;
+  border-radius: 6px;
+  padding: 4px 4px;
+  position: fixed;
+  z-index: 1;
+  top: 60px;
+  left: 10px;
+  display: flex;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: center;
+  top: auto;
+  left: auto;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 0,5;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 0,5;}
+  to {opacity:1 ;}
+}
