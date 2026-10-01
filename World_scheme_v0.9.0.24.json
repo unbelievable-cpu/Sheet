@@ -434,7 +434,7 @@
       "category": "equipment",
       "slot": "body",
       "durability": null,
-      "updatedAt": "2026-10-01T01:33:17.609Z"
+      "updatedAt": "2026-10-01T01:33:34.033Z"
     },
     "dc5bcbd0-72de-45ae-a113-d2d052641e98": {
       "id": "dc5bcbd0-72de-45ae-a113-d2d052641e98",
@@ -470,7 +470,7 @@
       "category": "equipment",
       "slot": "legs",
       "durability": null,
-      "updatedAt": "2026-10-01T01:33:17.609Z"
+      "updatedAt": "2026-10-01T01:33:34.033Z"
     },
     "4004b47d-c24b-4eda-9bb3-45b39b83b8f1": {
       "id": "4004b47d-c24b-4eda-9bb3-45b39b83b8f1",
@@ -506,7 +506,7 @@
       "category": "equipment",
       "slot": "feet",
       "durability": null,
-      "updatedAt": "2026-10-01T01:33:17.610Z"
+      "updatedAt": "2026-10-01T01:33:34.033Z"
     }
   },
   "map": {
@@ -4555,7 +4555,7 @@
         "name": "Settlement entrance",
         "description": "",
         "createdAt": "2026-10-01T01:30:49.194Z",
-        "updatedAt": "2026-10-01T01:33:17.608Z"
+        "updatedAt": "2026-10-01T01:33:34.030Z"
       },
       {
         "id": "CONN_3601037461",
@@ -4580,7 +4580,7 @@
         "name": "Settlement entrance",
         "description": "",
         "createdAt": "2026-10-01T01:30:49.199Z",
-        "updatedAt": "2026-10-01T01:33:17.608Z"
+        "updatedAt": "2026-10-01T01:33:34.030Z"
       },
       {
         "id": "CONN_3743089410",
@@ -4605,7 +4605,7 @@
         "name": "Settlement entrance",
         "description": "",
         "createdAt": "2026-10-01T01:30:49.203Z",
-        "updatedAt": "2026-10-01T01:33:17.608Z"
+        "updatedAt": "2026-10-01T01:33:34.030Z"
       }
     ],
     "features": {
